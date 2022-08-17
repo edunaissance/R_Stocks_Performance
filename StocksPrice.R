@@ -13,9 +13,9 @@ library(Hmisc)
 library(corrplot)
 library(plotly)
 
-homeuser="/Users/Jeffrey/Documents/EduNaissance/School Establishing/ICS4U"
-#homeuser is set as my working directory, u=you should set it as yours. 
-setwd(paste(homeuser,"/Basic R for Finance",sep=""))
+homeuser="{working directory}"
+#homeuser is set as my working directory, you should set it as yours. 
+setwd(paste(homeuser,"/an example",sep=""))
 
 GOOGLE <-getSymbols("GOOG",from =  "2017-01-01",to = "2018-12-31",src = "yahoo",auto.assign=FALSE)
 RHHVF <-getSymbols("RHHVF",from =  "2017-01-01",to = "2018-12-31",src = "yahoo",auto.assign=FALSE)
